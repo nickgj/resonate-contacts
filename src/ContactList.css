@@ -1,0 +1,29 @@
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+  
+.contact-list-item {
+  padding: 16px 15px;
+  border: none;
+}
+  
+.contact-list-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+  
+.contact-list-item:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.no-results {
+  color: #a1a1a1;
+}
+
+.no-results-container {
+  padding: 0 15px;
+}
